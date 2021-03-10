@@ -9,7 +9,6 @@ export default makeStyles({
   },
   border: {
     border: 'solid',
-    
   },
   fullHeightCard: {
     height: '100%',
@@ -21,7 +20,7 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
-    border:'2px solid white'
+    border: '2px solid white',
   },
   overlay: {
     position: 'absolute',
@@ -44,10 +43,10 @@ export default makeStyles({
     margin: '0.15rem 0.75rem ',
   },
   title: {
-    marginBottom:'0.25rem'
+    marginBottom: '0.25rem',
   },
   cardActions: {
-    padding: '0 16px 8px 16px',
+    padding: '0',
     display: 'flex',
     justifyContent: 'space-between',
   },

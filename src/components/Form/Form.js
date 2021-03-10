@@ -98,7 +98,6 @@ const Form = ({currentId,setCurrentId}) => {
             <FileBase
           
               type='file'
-              key={postData.selectedFile?postData.selectedFile:''}
               multiple={false}
               onDone={({base64}) =>
                 setPostData({ ...postData, selectedFile: base64 })

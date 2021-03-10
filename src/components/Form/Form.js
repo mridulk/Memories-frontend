@@ -49,7 +49,7 @@ const Form = ({currentId,setCurrentId}) => {
           noValidate
           className={`${classes.form} ${classes.root}`}
           onSubmit={handleSubmit}>
-          <Typography varient='h6' style={{color:'white'}}>{`${currentId?'Editing':'Creating'}`} a Memory</Typography>
+          <Typography varient='h6' style={{color:'white'}}>{`${currentId?'Edit':'Create'}`} a Memory</Typography>
           <TextField
           
             name='creator'
